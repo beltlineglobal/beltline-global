@@ -371,7 +371,7 @@ export function SiteShell({
                 Shop 4, Bangor Estate Junction, Ilorin, Kwara State
               </p>
               <p className="text-sm leading-7 text-slate-300">
-                Phone: 08125097090
+                Phone: +2348027823400
               </p>
               <p className="text-sm leading-7 text-slate-300">
                 Email: adam_i41@yahoo.com

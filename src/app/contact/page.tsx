@@ -82,7 +82,7 @@ export default function ContactPage() {
                 Shop 4, Bangor Estate Junction, Ilorin, Kwara State.
               </p>
               <p className="mt-6 text-base leading-8 text-slate-300">
-                Phone: 08125097090
+                Phone: +2348027823400
                 <br />
                 Email: info@beltlineglobal.com
               </p>
