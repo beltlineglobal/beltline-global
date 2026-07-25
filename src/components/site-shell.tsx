@@ -116,8 +116,8 @@ export function SiteShell({
                   key={item.href}
                   href={item.href}
                   className={`transition hover:text-[#2B5FBF] dark:hover:text-[#60a5fa] ${isActive
-                      ? "font-semibold text-[#2B5FBF] dark:text-[#60a5fa]"
-                      : ""
+                    ? "font-semibold text-[#2B5FBF] dark:text-[#60a5fa]"
+                    : ""
                     }`}
                 >
                   {item.label}
@@ -205,8 +205,8 @@ export function SiteShell({
                           href={item.href}
                           onClick={() => setMobileOpen(false)}
                           className={`block rounded-xl px-3 py-2 transition ${isActive
-                              ? "bg-slate-100 dark:bg-slate-800 text-[#2B5FBF] dark:text-[#60a5fa]"
-                              : "hover:bg-slate-50 dark:hover:bg-slate-800"
+                            ? "bg-slate-100 dark:bg-slate-800 text-[#2B5FBF] dark:text-[#60a5fa]"
+                            : "hover:bg-slate-50 dark:hover:bg-slate-800"
                             }`}
                         >
                           {item.label}
@@ -374,7 +374,7 @@ export function SiteShell({
                 Phone: +2348027823400
               </p>
               <p className="text-sm leading-7 text-slate-300">
-                Email: adam_i41@yahoo.com
+                Email: info@beltlineglobal.com
               </p>
             </div>
             <p className="mt-8 text-sm text-slate-400">
