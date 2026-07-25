@@ -42,13 +42,13 @@ export default function ContactPage() {
           </h2>
           <div className="mt-5 flex flex-wrap gap-3">
             <a
-              href="tel:+2348125097090"
+              href="tel:+2348027823400"
               className="rounded-full border border-slate-200 dark:border-slate-800 px-4 py-2 text-sm font-semibold text-[#1A2A44] dark:text-slate-200 bg-white dark:bg-slate-950 transition hover:border-[#2B5FBF] hover:text-[#2B5FBF] dark:hover:border-[#60a5fa] dark:hover:text-[#60a5fa]"
             >
               Call now
             </a>
             <a
-              href="https://wa.me/2348125097090"
+              href="https://wa.me/2348027823400"
               target="_blank"
               rel="noreferrer"
               className="rounded-full border border-slate-200 dark:border-slate-800 px-4 py-2 text-sm font-semibold text-[#1A2A44] dark:text-slate-200 bg-white dark:bg-slate-950 transition hover:border-[#2B5FBF] hover:text-[#2B5FBF] dark:hover:border-[#60a5fa] dark:hover:text-[#60a5fa]"
@@ -79,7 +79,7 @@ export default function ContactPage() {
             <div className="relative z-10">
               <h2 className="text-2xl font-semibold">Our office</h2>
               <p className="mt-6 text-base leading-8 text-slate-300">
-                Shop 4, Bangor Estate Junction, Ilorin, Kwara State.
+                Shop 4, Sango Estate Junction, Ilorin, Kwara State.
               </p>
               <p className="mt-6 text-base leading-8 text-slate-300">
                 Phone: +2348027823400
@@ -89,7 +89,7 @@ export default function ContactPage() {
               <div className="mt-8 overflow-hidden rounded-2xl border border-white/10">
                 <iframe
                   title="Beltline Global office location"
-                  src="https://www.google.com/maps?q=Shop+4,+Bangor+Estate+Junction,+Kulende,+Ilorin,+Kwara+State&z=14&output=embed"
+                  src="https://www.google.com/maps?q=Shop+4,+Sango+Estate+Junction,+Kulende,+Ilorin,+Kwara+State&z=14&output=embed"
                   loading="lazy"
                   referrerPolicy="no-referrer-when-downgrade"
                   className="h-56 w-full"
