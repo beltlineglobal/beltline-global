@@ -368,7 +368,7 @@ export function SiteShell({
                 Contact
               </p>
               <p className="mt-3 text-sm leading-7 text-slate-300">
-                Shop 4, Bangor Estate Junction, Ilorin, Kwara State
+                Shop 4, Sango Estate Junction, Ilorin, Kwara State
               </p>
               <p className="text-sm leading-7 text-slate-300">
                 Phone: +2348027823400
