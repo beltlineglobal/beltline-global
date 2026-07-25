@@ -22,7 +22,7 @@ export function ContactForm() {
     }
 
     const body = `Name: ${form.name}\nEmail: ${form.email}\nPhone: ${form.phone}\n\nMessage:\n${form.message}`;
-    const mailtoLink = `mailto:adam_i41@yahoo.com?subject=${encodeURIComponent("New enquiry from Beltline website")}&body=${encodeURIComponent(body)}`;
+    const mailtoLink = `mailto:info@beltlineglobal.com?subject=${encodeURIComponent("New enquiry from Beltline website")}&body=${encodeURIComponent(body)}`;
 
     window.location.href = mailtoLink;
     setStatus("success");
