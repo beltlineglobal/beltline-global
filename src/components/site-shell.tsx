@@ -250,7 +250,7 @@ export function SiteShell({
                 initial={{ opacity: 0, y: 16 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.16, duration: 0.6 }}
-                className="mt-4 max-w-3xl font-[family-name:var(--font-montserrat)] text-3xl font-semibold sm:text-4xl lg:whitespace-nowrap"
+                className="mt-4 max-w-6xl font-[family-name:var(--font-montserrat)] text-3xl font-semibold sm:text-4xl"
               >
                 {title}
               </motion.h1>
