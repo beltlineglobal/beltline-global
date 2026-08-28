@@ -107,48 +107,48 @@ const testimonials = [
       "Beltline Global Services delivered excellent IT training and professional support for our team.",
     author: "A. Yusuf",
     role: "Operations Lead",
-    image:
-      "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=200&q=80",
+    image: "/black-1.avif",
+    position: "center top",
   },
   {
     quote:
       "Their logistics and supply coordination were prompt, transparent, and dependable across every assignment.",
     author: "S. Bamidele",
     role: "Project Manager",
-    image:
-      "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=200&q=80",
+    image: "/black-2.avif",
+    position: "center top",
   },
   {
     quote:
       "The team was thoughtful, responsive, and committed to seeing our delivery goals through.",
     author: "M. Okafor",
     role: "Operations Director",
-    image:
-      "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=200&q=80",
+    image: "/black-3.avif",
+    position: "center top",
   },
   {
     quote:
       "Every engagement felt organized, professional, and focused on real business outcomes.",
     author: "T. Ibrahim",
     role: "Business Consultant",
-    image:
-      "https://images.unsplash.com/photo-1507591064344-4c6ce005b128?auto=format&fit=crop&w=200&q=80",
+    image: "/black-4.avif",
+    position: "center top",
   },
   {
     quote:
       "We appreciated the calm approach, clear updates, and dependable follow-through on every request.",
     author: "R. Bello",
     role: "Program Coordinator",
-    image:
-      "https://images.unsplash.com/photo-1488426862026-3ee34a7d66df?auto=format&fit=crop&w=200&q=80",
+    image: "/black-5.avif",
+    position: "center top",
   },
   {
     quote:
       "Their support helped our team stay confident, informed, and aligned throughout the project.",
     author: "K. Adeyemi",
     role: "Senior Manager",
-    image:
-      "https://images.unsplash.com/photo-1504593811423-6dd665756598?auto=format&fit=crop&w=200&q=80",
+    image: "/black-6.avif",
+    position: "center top",
   },
 ];
 
@@ -191,8 +191,8 @@ const posts = [
 export default function Home() {
   return (
     <SiteShell
-      title="Your reliable partner for consulting, IT, logistics, and property solutions in Nigeria."
-      intro="Beltline Global Services Limited is a registered company delivering excellence across Nigeria with a commitment to professionalism, integrity, and value."
+      title="Helping Nigerian organizations grow with integrated business solutions."
+      intro="BELTLINE GLOBAL SERVICES LIMITED (RC: 9648603) is your trusted partner for consulting, IT, logistics, supplies, events, and property services. We bring deep scientific expertise, AI-powered innovation, and a commitment to integrity to every project."
       bgImage="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=2000&q=80"
     >
       <div className="space-y-20">
@@ -422,6 +422,7 @@ export default function Home() {
                       alt={item.author}
                       fill
                       className="object-cover"
+                      style={{ objectPosition: item.position }}
                     />
                   </div>
                   <div>
